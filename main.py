@@ -47,7 +47,7 @@ def main():
 			sys.exit(1)
 
 	# Run
-	schedule.every(3).seconds.do(update_prices, stations)
+	schedule.every(10).minutes.do(update_prices, stations)
 	while True:
 		schedule.run_pending()
 		time.sleep(1)
