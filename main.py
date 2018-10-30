@@ -3,6 +3,7 @@
 
 import tankpreis
 from config import stations
+# stations = {'1234': ['Diesel', 'Super E10', 'Super E5'], '2345': ['Diesel', 'Super E10', 'Super E5']}
 
 import schedule
 import datetime
